@@ -31,4 +31,5 @@ for dev dependency management and production deployment.
 
 ## Additional Info
 
-https://www.anaconda.com/blog/using-pip-in-a-conda-environment
+- [Using pip in a conda environment](https://www.anaconda.com/blog/using-pip-in-a-conda-environment)
+- [python-poetry/poetry/pull/1432: Detect Conda when looking for a virtual env](https://github.com/python-poetry/poetry/pull/1432)
