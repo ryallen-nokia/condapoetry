@@ -5,8 +5,8 @@ for dev dependency management and production deployment.
 
 ## Requirements
 
-- [Poetry](https://python-poetry.org/docs/master/#installation)
 - [conda or miniconda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html)
+- [Poetry](https://python-poetry.org/docs/master/#installation)
 
 ## How To Run this Demonstration
 
@@ -22,7 +22,13 @@ for dev dependency management and production deployment.
 3. Add dependencies: `poetry add <pypi_packages>`
 4. Export project dependencies to conda environment files:
 
-   ```sh
+   ```
    conda env export > environment.yml
    conda list --export > anaconda-deps.ana
    ```
+   
+   For an actual project, this step could be done with a pre-commit hook.
+
+## Additional Info
+
+https://www.anaconda.com/blog/using-pip-in-a-conda-environment
